@@ -1,0 +1,120 @@
+body {
+  background-color: #f7f7f7;
+}
+
+.card {
+  background-color: #f2f9ff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+}
+
+label {
+  font-weight: bold;
+}
+
+textarea {
+  resize: none;
+}
+.width img{width: 6rem;
+}
+.input-icons .fa-regular{
+  position: absolute;
+right: 1rem;
+bottom: .7rem;
+
+}
+.input-icons .fa-solid{
+  position: absolute;
+right: 1rem;
+bottom: .7rem;
+
+}
+.mr{margin-left:24rem;}
+.bgb {background-color:#6c3ad1; }
+.boxshadow{box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .card {
+    width: 100%;
+    padding: 2rem;
+    font-size: 10px;
+  }
+
+  .btn-group {
+    flex-direction: row;
+    width: 100%;
+
+
+ display: flex;
+ justify-content: center;
+  }
+ 
+
+  .d-flex {
+    width: 100%;
+
+
+
+  }
+
+  .width img {
+    width: 4rem;
+  }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  /* Adjust the card width to fit small screens */
+  .card {
+    width: 100%;
+  
+    font-size: 14px;
+  }
+
+  /* Stack the buttons vertically for mobile devices */
+  .btn-group {
+    flex-direction: column;
+    width: 100%;
+    gap: 1rem;
+  }
+
+  /* Make form groups take full width */
+  .form-group {
+    width: 150%;
+    margin-bottom: 1rem;
+  }
+
+  /* Reduce image size */
+  .width img {
+    width: 4rem;
+  }
+
+  /* Center align text */
+  h3, p {
+    text-align: center;
+  }
+
+  /* Adjust button size for smaller screens */
+  .btn {
+    padding: 0.8rem 1.2rem;
+    font-size: 14px;
+  }
+
+  /* Hide any large margins on smaller devices */
+  .mr {
+    margin-left: 0;
+  }
+
+  /* Make the radio button section responsive */
+  .form-group .d-flex {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  /* Full-width textarea */
+  textarea {
+    width: 100%;
+    background-color: black;
+  }
+}

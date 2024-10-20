@@ -1,0 +1,121 @@
+
+<div class=" mt-5 text-end pt-5">
+  <div class=" d-flex justify-content-center   m-auto mt-5">
+    <div class="  mt-1 ">
+      <h3 class="text-end mb-4 pt-3 fw-bold fs-2  mx-5">دورة الإسعافات الأولية</h3>
+    <p class="text-end   mx-5 text-muted fw-bold">يمكنك طلب الاسعاف للحالات الطارئه والحالات الغير طارئه  يمكنك ايضا الدفع من خلال بوابتنا الالكترونيه الامنه لطلب سياره اسعاف فقط يمكنك ملئ النموذج ثم تاكيد اختيارك
+    </p>
+    </div>
+    <div  class="width">
+      <img src="../../assets/images/Capturewwwwwwwwwwwwwwww.PNG" alt="">
+    </div>
+   
+  </div>
+
+  
+  <div class="card p-4">
+    <div class="btn-group mb-3 rounded-start-1  w-25 m-auto gap-5  " role="group">
+      <button type="button" class="btn btn-light rounded-1 fw-bold text-black p-4  boxshadow ">جهات
+        <span class="text-muted px-2 "><i class="fa-solid fa-id-card fa-2xl fs-4 "></i></span>
+      </button>
+     
+      <button type="button" class="btn btn-primary rounded-1 fw-bold p-4 bgb px-1 boxshadow">مواطنين
+        <span class="text-muted px-2  "><i class="fa-solid fa-people-roof fa-xl text-white"></i></span>
+      </button>
+     
+     
+      
+    </div>
+    <form [formGroup]="firstAidForm" (ngSubmit)="onSubmit()" class="d-inline">
+      <div class="d-flex   justify-content-center gap-4  text-muted pt-5">
+        <div class="form-group input-icons w-25 position-relative ">
+          
+          <label for="fullName"><span class="text-danger fw">*</span>الاسم الثلاثي باللغه الانجليزيه</label>
+         
+          <input
+            type="text"
+            class="form-control boxshadow  "
+            id="fullName"
+            formControlName="fullName"
+            required
+            
+          />
+          <i class="fa-regular fa-user position-absolute top-9 right-3 text-muted"></i>
+          
+        </div>
+        
+        <div class="form-group w-25 input-icons position-relative">
+          <label for="fullName"><span class="text-danger">*</span>الاسم الثلاثي باللغه العربيه</label>
+        
+          <input
+            type="text"
+            class="form-control"
+            id="fullName"
+            formControlName="fullName"
+            required
+          />
+          <i class="fa-regular fa-user position-absolute top-9 right-3 text-muted"></i>
+        </div>
+      </div>
+      <div class="d-flex   justify-content-center gap-4  py-5 text-muted">
+    
+      <div class="form-group input-icons w-25 position-relative ">
+        <label for="phoneNumber" ><span class="text-danger">*</span>رقم الهاتف </label>
+        <input
+          type="tel"
+          class="form-control boxshadow"
+          id="phoneNumber"
+          formControlName="phoneNumber"
+          required
+        />
+        <i class="fa-solid fa-phone position-absolute top-9 right-3 text-muted"></i>
+      </div>
+      <div class="form-group input-icons w-25 position-relative">
+        <label for="idNumber"><span class="text-danger">*</span>الرقم القومي</label>
+        <input
+          type="text"
+          class="form-control"
+          id="idNumber"
+          formControlName="idNumber"
+          required
+        />
+        <i class="fa-solid fa-building-un position-absolute top-9 right-3 text-muted"></i>
+      </div>
+     </div>
+     <div class="d-flex  gap-4    justify-content-end w-50 mr text-muted">
+      <div class="form-group w-50 justify-content-end input-icons position-relative  ">
+        <label for="vehicleType"><span class="text-danger">*</span>طبيعه عمل السياره </label>
+        <select class="form-select boxshadow  " id="inputGroupSelect01" required>
+          <option value="" disabled selected  ></option>
+          <option value="private">خاصة</option>
+          <option value="public">عامة</option>
+        </select>
+        <i class="fa-solid fa-truck-medical position-absolute top-9 right-3 text-muted"></i>
+      </div>
+      
+      </div>
+      <div class="form-group   w-50 mr py-3 text-muted ">
+        <label for="injuredToday" >هل انت من ذوي الهمم؟</label><br />
+       <div class="d-flex justify-content-end w-75 ">
+        <div class=" px-4"><input type="radio" formControlName="injuredToday" value="yes"  class=""/> نعم
+        </div>
+        <div >      <input   type="radio"   formControlName="injuredToday"   value="no"   class="px-4"    /> لا</div>
+  
+      </div>
+      </div>
+      <div class="form-group  w-50 m-auto text-muted ">
+        <label for="additionalInfo"> <span class="text-danger">*</span>في حاله الجابه بنعم ما هي تشخيص حالتك وما هي الاحتياجات التي تود ان نوفرها لك</label>
+        <textarea
+          class="form-control p-4 text-black mx-2 boxshadow"
+          id="additionalInfo"
+          formControlName="additionalInfo"
+          rows="3"
+        > نص تجريبي </textarea>
+      </div>
+      <div class=" d-flex justify-content-center py-4 gap-5 ">
+        <button type="button" class="btn btn-light px-5 text-black boxshadow">الغاء<span><i class="fa-solid fa-xmark px-2 "></i></span></button>
+        <button type=" submit" class="btn  boxshadow  bgb px-5 text-white">التالي</button>
+    </div>
+    </form>
+  </div>
+</div>

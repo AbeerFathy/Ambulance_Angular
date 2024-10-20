@@ -1,0 +1,95 @@
+.firstACC{background-color: #f2f9ff;}
+body{
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+}
+
+
+/* Ensure icons and text align properly */
+.d-flex {
+  display: flex;
+  align-items: center;
+}
+
+.textfont{padding-right: 1rem;
+  font-size: 1rem;
+  font-weight: bold;}
+.textfontn{ font-size: 1.5rem;}
+
+.coloricon{color:#f2b50d;}
+.firstAC .btn{background-color:  #6c3ad1;}
+
+.bg{
+    
+    background: rgb(83,89,126);
+background: radial-gradient(circle, rgba(83,89,126,1) 0%, rgba(104,39,94,1) 80%);
+
+width: 100%;}
+.w{width: 98%;}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  /* Add styles for extra small devices */
+  .resposivefirst3 h2{ text-align: end;
+  margin-left: auto;
+  margin-bottom: 2px;
+  font-size: 14px;
+
+ 
+  
+ }
+ .resposivefirst3 h1{
+
+margin-right: 10px;}
+  .firstAC {
+    padding: 1rem;
+    text-align: end;
+  
+ margin: auto;}
+ 
+  .textfontn {
+    font-size: 1.25rem;
+  }
+  .w {
+    width: 100%;
+  }
+ button  {display: flex;
+flex-wrap: wrap;}
+
+.resposivefirst1{  
+
+  width: 60%;
+
+}
+
+.button{width: 60%;
+margin: auto;}
+
+
+}
+
+@media only screen and (min-width: 600px) {
+  /* Add styles for small devices */
+  
+  .textfont {
+    font-size: 1rem;
+  }
+  .textfontn {
+    font-size: 1.5rem;
+  }
+}
+@media only screen and (min-width: 768px) {
+  /* Add styles for medium devices */
+  .firstAC {
+    padding: 3rem;
+  }
+  .w {
+    width: 98%;
+  }
+}
+
+
+
+
+

@@ -1,0 +1,107 @@
+
+  
+  
+  .radiousicon{
+    width: 2rem;
+    height: 2rem;
+    background-color: #5631a3;
+    border-radius: 50%;
+  
+  }
+  .button-item .icon {
+   
+  
+    border-radius: 50%;
+    margin-right: 5px;
+    font-size: 1rem;
+  }
+
+  
+
+  .res2 span {font-size: 18px;}
+  .res2 p {font-size: 15px;}
+  
+ 
+  
+  /* Inquiries button styling */
+  .inquiries-button {
+    display: flex;
+    align-items: center;
+    background-color: #f2f3f5;
+    padding: 8px 12px;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .inquiries-button .icon {
+    margin-right: 5px;
+  }
+  
+  .inquiries-button:hover {
+    background-color: #e1e2e5;
+  }
+  
+  
+  
+  .logo-img {
+width: 3.5rem;
+height: 3.5rem;
+    
+   
+  }
+  .textf{color: #184591;
+  }
+  .textf p{color: #f3c11b; 
+  }
+
+
+  .logo span {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #000;
+  }
+  
+  .logo p {
+    font-size: 0.8rem;
+    color:orange;
+  }
+  .boxshadow{box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;}
+  @media only screen and (max-width: 768px) {
+
+    .inquiries-button {
+ 
+   font-size: 10px;
+    }
+    .logo-img {
+      width: 3rem;
+      height: 3rem;
+          }}
+    @media only screen and (max-width: 412px) {
+
+      .inquiries-button {
+   
+     font-size: 8px;
+      }
+ .res2{
+  margin: auto;}
+  .res2 span{
+  font-size: 10px;}
+  .res2 p{
+    font-size: 10px;}
+    .logo-img {
+      width: 2rem;
+      height: 2rem;
+          
+         
+        }
+        .container-fluid {
+        row-gap: 5px;}
+       
+       }
+
+  
+      
+   
+    
+
+  

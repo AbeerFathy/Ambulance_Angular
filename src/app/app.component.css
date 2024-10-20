@@ -1,0 +1,41 @@
+:root {font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+    --main-color:#5551ff;
+    --seconed-color:#f2b50d;
+    --third-color:#0a6dc2;
+    --forth-color:#184591;
+    color-scheme: light dark;
+    --color-multiplayerblue: #0a6dc2;
+    --color-multiplayerpurple: #8a38f5;
+    --color-multiplayerpink: #f316b0;
+    --color-multiplayerred: #e03e1a;
+    --color-multiplayeryellow: #f3c11b;
+    --color-multiplayergreen: #198f51;
+    --color-multiplayergrey: #667799;
+    --color-multiplayerbluehover: #105cad;
+    --color-multiplayerpurplehover: #7a2ed6;
+    --color-multiplayerpinkhover: #d01b9c;
+    --color-multiplayerredhover: #c4381c;
+    --color-multiplayeryellowhover: #f2b50d;
+    --color-multiplayergreenhover: #078348;
+    --color-multiplayergreyhover: #536383;
+    --color-multiplayerbluesecondary: #184591;
+    --color-multiplayerpurplesecondary: #50297a;
+    --color-multiplayerpinksecondary: #68275e;
+    --color-multiplayerredsecondary: #7c2622;
+    --color-multiplayeryellowsecondary: #c58011;
+    --color-multiplayergreensecondary: #0a4c2d;
+    --color-multiplayergreysecondary: #394360;
+    --color-textonmultiplayerblue: rgba(255, 255, 255, 1);
+    --color-textonmultiplayerpurple: rgba(255, 255, 255, 1);
+    --color-textonmultiplayerpink: rgba(255, 255, 255, 1);
+    --color-textonmultiplayerred: rgba(255, 255, 255, 1);
+    --color-textonmultiplayeryellow: rgba(0, 0, 0, .9);
+  
+  
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }

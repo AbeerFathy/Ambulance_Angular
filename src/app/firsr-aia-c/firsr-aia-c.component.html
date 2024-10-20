@@ -1,0 +1,61 @@
+<section class=" d-flex py-8 firstACC">
+    <div class="w-100 ">
+      <div class="text-end bg pe-5 py-4 resposivefirst3">
+        <h1 class="fw-bold fs-2 text-white  ">دوره الاسعافات الاوليه</h1>
+        <h2 class=" textfont py-3 fw-bold text-white">
+          تزودك دورتنا الشامله في الاسعافات الاوليه بالمهارات الاساسيه للتعامل مع حالات الطوارئ غير المتوقعه في الحياه
+        </h2>
+      </div>
+      
+      <div class="underlinesection"></div>
+      <div class="row w firstAC">
+        <div class="col-lg-6 pt-5   ">
+          <img class="w-100 ms-0 border border-1 rounded-1" src="../../assets/images/4.png" />
+        </div>
+        <div class="col-lg-6 pt-5">
+          <h2 class="text-end py-3">ماذا ستتعلم</h2>
+          <div *ngFor="let topic of courseTopics" class="d-flex justify-content-end">
+            <h3 class="font-bold fs-6">{{ topic }}</h3>
+            <span class="px-1"><i class="fa-solid fa-circle fa-2xs"></i></span>
+          </div>
+          <div class="d-flex justify-content-end m-3">
+            <div class="d-flex mx-16 coloricon px-3">
+              <i class="fa-solid fa-star px-1 py-1 " *ngFor="let star of [1,2,3,4,5]"></i>
+            </div>
+            <h3 class="font-bold textfontn">4.7</h3>
+          </div>
+          <div class="d-flex flex-column flex-md-row resi ms-auto justify-content-around bg-light w-100 py-2 border rounded-1 resposivefirst ">
+            <div class="d-flex align-items-center mb-2 mb-md-0">
+              <h3 class="m-0 text-muted fs-6 ">   ساعات </h3>
+              <h3 class="m-0 text-muted  fs-6 ">  5 </h3>
+            
+              <i class="fa-regular fs-5 fa-clock me-2 text-muted  px-3"></i>
+            </div>
+            <div class="d-flex align-items-center ">
+              
+              <h3 class="m-0 text-muted  fs-6">  اكتوبر 2024</h3>
+              <h3 class="m-0 text-muted fs-6 ">  05</h3>
+              <i class="fa-regular fa-calendar me-2 fs-5  text-muted px-3"></i>
+            </div>
+          </div>
+          <div class="d-flex justify-content-end text-muted font-bold fs-4 py-4 resposivefirst1">
+            16,500 LE
+          </div>
+          <div class="d-flex justify-content-start mb-2 button">
+            <a routerLink="/first-aregister">
+              <button class="btn font-bold text-white px-5">لالتحاق بالدوره</button>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="text-end pe-5 w-75 ms-auto text resposivefirst2 ">
+        <h2>هذه الدوره تتضمن</h2>
+        <p class=" ">تشير الاسعافات الاوليه الي حاله الطوارئ او الرعايه الفوريه التي يجب عليك تقديمها عند اصابه شخص او مرضه لمساعدته الي حين توفر العلاج الطبي الكامل حيث يمكن ان يعني قرار التصرف بشكل مناسب مع الاسعافات الالاوليه الفرق بين الحياه والموت في هذه الدوره التدريبيه ستتعلك كيف انقتدذ حياه الاشخاص من خلال تقنيات الاسعافات الاوليه الاساسيه التي تساعدك علي التعامل مع حالات الطوارئ وابقاء الشخص يتنفس او علي الاقل المساهمه قي تقليل الامه او التقليل من عواقب الاصابه او الاعياء المفاجئ حتي وصول سياره الاسعاف</p>
+        <h2>متطلبات الدوره</h2>
+        <p class="">لا يوجد متطلبات لهذه الدوره كل ما تحتاجه لتحقيق اقصي فائده من هذه الدوره هو اهتمامك بموضوع الدوره ورغبتك في التعلم</p>
+    
+    </div>
+    </div>
+   
+  </section>
+  
